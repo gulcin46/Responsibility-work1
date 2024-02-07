@@ -1,2 +1,20 @@
 #second
-    
+    .minibox
+        width: 120px
+        height: 120px
+        border: 5px solid black
+        background-color: #ced3f5
+        transition: 2s
+        &:hover
+            width: 300px
+            height: 300px
+            border: 9px solid #aaeed3
+        h1
+            color: #ffffff
+            font-size: 33px
+    @media screen and ( max-width:800px  )
+        .minibox
+            width: 300px
+            height: 300px
+            border: 3px solid red
+            background-color: #6073dc
